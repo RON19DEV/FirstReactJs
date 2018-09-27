@@ -19,7 +19,7 @@ module.exports={
                 include:path.resolve(__dirname,'src'),
                 loader:'babel-loader',
                 query:{
-                    presets:["@babel/react"]
+                    presets:["@babel/react","@babel/env"]
                 }
             
             },
