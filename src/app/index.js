@@ -43,7 +43,7 @@ var TodoItem = createReactClass({
       
         var style = {
             color: 'blue',
-            fontSize: 20
+            fontSize: 30
           };
         return(
 
